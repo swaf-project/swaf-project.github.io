@@ -1,1 +1,4 @@
+title: sWAF Project
+description: A simple Web Application Firewall docker image
+show_downloads: true
 theme: jekyll-theme-hacker
