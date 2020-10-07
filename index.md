@@ -2,7 +2,7 @@
           ___          ___    _________
        ___\  \        /   \  |   _____/
      (   __\  \  /\  /  _  \ |  |___
-      \  \  \  \/  \/  / \  \|   __/   >>>  A simple Web Application Firewall docker image.
+      \  \  \  \/  \/  / \  \|   __/
     ___)  \  \   /\   /---\  \  |
     \_____/   \_/  \_/     \____|
 ```
@@ -17,9 +17,9 @@ Full documentation available on the [Wiki](https://github.com/swaf-project/swaf-
 
 ### Docker Hub
 
-    ```shell
-    docker pull [swafproject/swaf](https://hub.docker.com/r/swafproject/swaf)
-    ```
+```docker pull swafproject/swaf```
+
+>>> Docker Hub: [swafproject/swaf](https://hub.docker.com/r/swafproject/swaf)
 
 ### Issues?
 
