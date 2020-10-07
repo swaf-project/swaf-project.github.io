@@ -1,4 +1,5 @@
-title: sWAF Project
-description: A simple Web Application Firewall docker image
+title: sWAF
+description: A simple Web Application Firewall docker image.
+logo: https://github.com/swaf-project/swaf-docker/raw/master/logo/skull_mask_266.png
 show_downloads: true
 theme: jekyll-theme-minimal
