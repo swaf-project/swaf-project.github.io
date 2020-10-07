@@ -11,16 +11,16 @@
 
 ## Getting Started
 
-    More information on the [GitHub Repository](https://github.com/swaf-project/swaf-docker)!
+More information on the [GitHub Repository](https://github.com/swaf-project/swaf-docker)!
 
-    Full documentation available on the [Wiki](https://github.com/swaf-project/swaf-docker/wiki).
+Full documentation available on the [Wiki](https://github.com/swaf-project/swaf-docker/wiki).
 
 ### Docker Hub
 
-    ```docker pull swafproject/swaf```
+```docker pull swafproject/swaf```
 
 ### Any Issues
 
-          Please open issues on [https://github.com/swaf-project/swaf-docker/issues](https://github.com/swaf-project/swaf-docker/issues).
+Please open issues on [https://github.com/swaf-project/swaf-docker/issues](https://github.com/swaf-project/swaf-docker/issues).
 
 _Copyright (C) 2020  styx0x6 <https://github.com/styx0x6>_
