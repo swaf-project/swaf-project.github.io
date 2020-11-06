@@ -1,20 +1,36 @@
 ![sWAF Logo](https://github.com/swaf-project/swaf-docker/raw/master/logo/skull_mask_266.png)
 
-**sWAF** is a **simple Web Application Firewall** [docker image](https://hub.docker.com/r/swafproject/swaf), pre-configured to be easily used with your web services architecture. It runs [NGINX](https://www.nginx.com/) as a dedicated reverse proxy with [ModSecurity v3](https://www.modsecurity.org/) and [NAXSI](https://github.com/nbs-system/naxsi) modules using the [OWASP® ModSecurity Core Rule Set (CRS)](https://coreruleset.org/) for the security layers, all over an [Alpine Linux](https://www.alpinelinux.org/) image.
+**sWAF** is a **simple Web Application Firewall** [docker image](https://hub.docker.com/r/swafproject/swaf), pre-configured to be easily used within your web services architecture.
+
+It runs [NGINX](https://www.nginx.com/) as a dedicated reverse proxy embedding powerful WAF engines: [ModSecurity 3](https://www.modsecurity.org/), using [OWASP® ModSecurity Core Rule Set (CRS)](https://coreruleset.org/) rules, and [NAXSI](https://github.com/nbs-system/naxsi). It uses [acme.sh](https://acme.sh/) for Let's Encrypt and others free CA support.
 
 ## Getting Started
 
-More information on the [GitHub Repository](https://github.com/swaf-project/swaf-docker)!
+1. Get sWAF docker image:
 
-Full documentation available on the [Wiki](https://github.com/swaf-project/swaf-docker/wiki).
+    ```shell
+    docker pull swafproject/swaf
+    ```
 
-### Docker Hub
+2. Start a sWAF container:
 
-```docker pull swafproject/swaf```
+    ```shell
+    docker run -d \
+        --name swaf \
+        --restart always \
+        --net host \
+        swafproject/swaf
+    ```
 
-### Any Issues
+## Further Details
 
-Please open issues on [https://github.com/swaf-project/swaf-docker/issues](https://github.com/swaf-project/swaf-docker/issues).
+* All details on <https://github.com/swaf-project/swaf-docker>
+
+* Full documentation on the [Wiki](https://github.com/swaf-project/swaf-docker/wiki)
+
+### And obviously...
+
+...in case of any issue: [https://github.com/swaf-project/swaf-docker/issues](https://github.com/swaf-project/swaf-docker/issues)
 
 ---
 _Copyright (C) 2020  styx0x6 <https://github.com/styx0x6>_
