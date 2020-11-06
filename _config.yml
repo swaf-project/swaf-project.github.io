@@ -2,7 +2,7 @@ theme: jekyll-theme-hacker
 title: sWAF
 description: A simple Web Application Firewall docker image.
 #logo: https://github.com/swaf-project/swaf-docker/raw/master/logo/skull_mask_266.png
-show_downloads: true
+show_downloads: false
 github:
   zip_url: https://github.com/swaf-project/swaf-docker/archive/master.zip
   tar_url: https://github.com/swaf-project/swaf-docker/archive/master.tar.gz
