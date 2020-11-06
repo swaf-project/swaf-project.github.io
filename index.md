@@ -15,11 +15,7 @@ It runs [NGINX](https://www.nginx.com/) as a dedicated reverse proxy embedding p
 2. Start a sWAF container:
 
     ```shell
-    docker run -d \
-        --name swaf \
-        --restart always \
-        --net host \
-        swafproject/swaf
+    docker run -d --name swaf --restart always --net host swafproject/swaf
     ```
 
 ## Further Details
