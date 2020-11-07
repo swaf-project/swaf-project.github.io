@@ -29,4 +29,4 @@ It runs [NGINX](https://www.nginx.com/) as a dedicated reverse proxy embedding p
 ...in case of any issue: [https://github.com/swaf-project/swaf-docker/issues](https://github.com/swaf-project/swaf-docker/issues)
 
 ---
-_Copyright (C) 2020  styx0x6 <https://github.com/styx0x6>_
+The sWAF Project Team - [WebSite](https://swaf-project.github.io) / [GitHub](https://github.com/swaf-project/swaf-docker) / [Wiki](https://github.com/swaf-project/swaf-docker/wiki)
