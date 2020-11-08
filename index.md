@@ -1,6 +1,6 @@
 ![sWAF Logo](https://github.com/swaf-project/swaf-docker/raw/master/logo/skull_mask_266.png)
 
-**sWAF** is a **simple Web Application Firewall** [docker image](https://hub.docker.com/r/swafproject/swaf), pre-configured to be easily used within your web services architecture.
+**sWAF** is a **simple Web Application Firewall** [docker image](https://hub.docker.com/r/swafproject/swaf), pre-packaged to be easily used within your web services architecture.
 
 It runs [NGINX](https://www.nginx.com/) as a dedicated reverse proxy embedding powerful WAF engines: [ModSecurity 3](https://www.modsecurity.org/), using [OWASP® ModSecurity Core Rule Set (CRS)](https://coreruleset.org/) rules, and [NAXSI](https://github.com/nbs-system/naxsi). It uses [acme.sh](https://acme.sh/) for Let's Encrypt and others free CA support.
 
